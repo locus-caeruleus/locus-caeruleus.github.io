@@ -1,7 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Portfolio</title>
+    <!-- Optional: Jekyll-Theme einbinden (z. B. "minima") -->
+    <!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; color: #333; }
+        header { background: #f4f4f4; padding: 20px; text-align: center; }
+        section { padding: 40px 20px; max-width: 800px; margin: 0 auto; }
+        h1, h2 { color: #2c3e50; }
+        .container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .project { border: 1px solid #ddd; padding: 20px; border-radius: 5px; flex: 1 1 300px; }
+        footer { text-align: center; padding: 20px; background: #f4f4f4; }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>GitHub Pages test file.</p>
+    <!-- Header 1: Über mich -->
+    <header>
+        <h1>Max Mustermann</h1>
+        <p>Webentwickler & Designer</p>
+    </header>
+
+    <!-- Header 2: Über mich -->
+    <section id="ueber-mich">
+        <h2>Über mich</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+        <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+    </section>
+
+    <!-- Header 3: Projekte -->
+    <section id="projekte">
+        <h2>Meine Projekte</h2>
+        <div class="container">
+            <div class="project">
+                <h3>Projekt 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+            </div>
+            <div class="project">
+                <h3>Projekt 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+            </div>
+            <div class="project">
+                <h3>Projekt 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Header 4: Fähigkeiten -->
+    <section id="faehigkeiten">
+        <h2>Fähigkeiten</h2>
+        <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>Jekyll</li>
+            <li>GitHub Pages</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Max Mustermann</p>
+    </footer>
 </body>
 </html>
